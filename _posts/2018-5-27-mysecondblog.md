@@ -19,50 +19,52 @@ excerpt: 一道算法笔试题
  * 如果要在cmd下运行该文件，先要在basic6下使用javac FindMdlLnArray5.java进行编译
  * 然后再包的上一层目录使用java com.daiqi.basic6进行运行
  * */
-package com.daiqi.basic6;
+	
+	package com.daiqi.basic6;
 
-public class FindMdlLnArray5 {
+	//根据权值求中间值
+	public class FindMdlLnArray5 {
 
-//根据权值求中间值
-public static void main(String[] args) {
-//	double []num = {0.5,1.24,18,1.4,2.1,3.2,2.5,13,2.6,18,2.55,1.2,1.83,1.3,2.1};
-//	double []weight = {0.8,0.2,1.98,1.4,2.1,3.8,2.1,2.12,0.5,5.6,1.1,1.2,3.5,1.2,1.5};
-	double[] num = new double[] {6000,7000,8000,9000,30000};
-	double[] weight = new double[] {100,50,40,5,3};
-	double total = 0.0;
-	double mid = 0.0;
-	for (int i = 0; i < num.length; i++){
-	for (int j = 1; j < num.length - i; j++){
-		if (num[j - 1] > num[j]){
-		double k = num[j - 1];
-		num[j - 1] = num[j];
-		num[j] = k;
-		
-		k = weight[j - 1];
-		weight[j - 1] = weight[j];
-		weight[j] = k;
+	public static void main(String[] args) {
+	//	double []num = {0.5,1.24,18,1.4,2.1,3.2,2.5,13,2.6,18,2.55,1.2,1.83,1.3,2.1};
+	//	double []weight = {0.8,0.2,1.98,1.4,2.1,3.8,2.1,2.12,0.5,5.6,1.1,1.2,3.5,1.2,1.5};
+	
+		double[] num = new double[] {6000,7000,8000,9000,30000};
+		double[] weight = new double[] {100,50,40,5,3};
+		double total = 0.0;
+		double mid = 0.0;
+		for (int i = 0; i < num.length; i++){
+		for (int j = 1; j < num.length - i; j++){
+			
+			if (num[j - 1] > num[j]){
+			double k = num[j - 1];
+			num[j - 1] = num[j];
+			num[j] = k;
+			
+			k = weight[j - 1];
+			weight[j - 1] = weight[j];
+			weight[j] = k;
+		    }
+		}  
 	    }
-	}  
-    }
-	
-	for(int i=0;i<weight.length;i++) {
-		total+=weight[i];
-	}
-	mid = total/2;
-	
-	for(int i=0;i<weight.length;i++) {
-		double temp=0.0;
-		for(int j=0;j<=i;j++) {
-			temp+=weight[j];
+		
+		for(int i=0;i<weight.length;i++) {
+			total+=weight[i];
 		}
-		if(temp>=mid) {
-			System.out.println(num[i]);
-			break;
+		mid = total/2;
+		
+		for(int i=0;i<weight.length;i++) {
+			double temp=0.0;
+			for(int j=0;j<=i;j++) {
+				temp+=weight[j];
+			}
+			if(temp>=mid) {
+				System.out.println(num[i]);
+				break;
+			}
 		}
+	    }
 	}
-    }
-
-}
 
 /**
  * 由于JDK是国际版的，在编译的时候，如果我们没有用-encoding参数指定我们的JAVA源程序的编码格式，
