@@ -10,7 +10,7 @@ description: DaiQi的博客 编程爱好者
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the subpath of your site
 # twitter_username: jekyllrb
-github_username:  DaiQi
+github_username:  HelloDaiQi
 permalink: /:year/:month/:day/:title/
 
 # Build settings
