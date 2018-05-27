@@ -11,5 +11,5 @@ excerpt: 一道算法笔试题
 
 ## 《带权中位数算法》
 
- 如图({{"/css/pics/mysecondblog/zp1526885428622.png"}})
-     ({{"/css/pics/mysecondblog/zp1526882540030.png"}}) 
+ 如图({{"/css/pics/mysecondblog/zp1526885428622.jpg"}})
+     ({{"/css/pics/mysecondblog/zp1526882540030.jpg"}}) 
