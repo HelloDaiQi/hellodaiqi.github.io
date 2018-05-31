@@ -21,8 +21,23 @@ public class BuyChicken {
 	 */
 	public static void main(String[] args) {
 		// 在这里，不认为小鸡的数量可以被1整出，所以需要类型强制转换
+		long startTime = 0;
+		long endTime = 0;
+
+		startTime = System.currentTimeMillis();
 		chicken1(100, 100, 5, 2, (double) 1 / (double) 4);
+		endTime = System.currentTimeMillis();
+		System.out.println("chicken1用了：" + (endTime - startTime));
+
+		startTime = System.currentTimeMillis();
 		chicken2(100, 100, 5, 2, (double) 1 / (double) 4);
+		endTime = System.currentTimeMillis();
+		System.out.println("chicken2用了：" + (endTime - startTime));
+
+		startTime = System.currentTimeMillis();
+		chicken3(100, 100, 5, 2, (double) 1 / (double) 4);
+		endTime = System.currentTimeMillis();
+		System.out.println("chicken3用了：" + (endTime - startTime));
 	}
 
 	/**
@@ -64,5 +79,22 @@ public class BuyChicken {
 			}
 		}
 		System.out.println("一共" + L + "种买法");
+	}
+
+	public static void chicken3(double money, int number, double mjPrice, double gjPrice, double xjPrice) {
+		int mj, gj, xj;
+		int count = 0;
+		for (mj = 0; mj <= (int) Math.floor(money / mjPrice); mj++) {
+			for (gj = 0; gj <= (int) Math.floor((money - mj * mjPrice) / gjPrice); gj++) {
+				for (xj = 0; xj <= (int) Math.floor((money - mj * mjPrice - gj * gjPrice) / xjPrice); xj++) {
+					if ((mj + gj + xj == number) && (mj * mjPrice + gj * gjPrice + xj * xjPrice == money)) {
+						count++;
+						System.out.println(
+								"方案" + count + ":" + "母鸡的数量为:" + mj + "," + "公鸡的数量为：" + gj + "," + "小鸡的数量为：" + xj);
+					}
+				}
+			}
+		}
+		System.out.println("一共" + count + "种买法");
 	}
 }
