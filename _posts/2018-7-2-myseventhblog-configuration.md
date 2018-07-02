@@ -13,7 +13,7 @@ excerpt: jdk的下载、安装及配置
 
  1.jdk的下载：
   可以通过网址直接下载，也可以通过百度搜索下载，如图
-  ![jdk_download]({{"/css/pics/myseventhblog/jdk_download.png"}})
+  ![jdk_download]({{"/css/pics/myseventhblog/jdk_download.PNG"}})
 
  2.jdk的安装：
   个人建议：最好事先新建一个文件夹，文件夹下在建两个文件夹，一个放置jdk另一个防止jre
@@ -35,8 +35,8 @@ excerpt: jdk的下载、安装及配置
   ![path3]({{"/css/pics/myseventhblog/path3.PNG"}})
 
 4.运行cmd，测试是否配置成功，如图：
- ![test1]({{"/css/pics/myseventhblog/test1.PNG"}})
+  ![test1]({{"/css/pics/myseventhblog/test1.PNG"}})
  
- ![test2]({{"/css/pics/myseventhblog/test2.PNG"}})
+  ![test2]({{"/css/pics/myseventhblog/test2.PNG"}})
  
 5.如此，jdk的配置就已经完成啦！
