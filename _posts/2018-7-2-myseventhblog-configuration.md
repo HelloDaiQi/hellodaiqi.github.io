@@ -17,7 +17,7 @@ excerpt: jdk的下载、安装及配置
 
  2.jdk的安装：
   个人建议：最好事先新建一个文件夹，文件夹下在建两个文件夹，一个放置jdk另一个防止jre
-  紧接着，按照如图所示步骤安装即可&nbsp; 
+  紧接着，按照如图所示步骤安装即可<br/>
   ![jdk_setup1]({{"/css/pics/myseventhblog/jdk_setup1.PNG"}})
   
   ![jdk_setup2]({{"/css/pics/myseventhblog/jdk_setup2.PNG"}})
