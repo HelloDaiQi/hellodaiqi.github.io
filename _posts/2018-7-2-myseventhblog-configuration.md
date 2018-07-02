@@ -1,42 +1,42 @@
 ---
 layout: post
-title:  "jdkÏÂÔØ°²×°¼°ÅäÖÃ"
+title:  "jdkä¸‹è½½å®‰è£…åŠé…ç½®"
 date:   2018-7-2 22:30:25
 categories: configuration
-excerpt: jdkµÄÏÂÔØ¡¢°²×°¼°ÅäÖÃ
+excerpt: jdkçš„ä¸‹è½½ã€å®‰è£…åŠé…ç½®
 ---
 
 * content
 {:toc}
 
-## ¡¶jdkÏÂÔØ°²×°¼°ÅäÖÃ¡·
+## ã€Šjdkä¸‹è½½å®‰è£…åŠé…ç½®ã€‹
 
-1.jdkµÄÏÂÔØ£º
-¿ÉÒÔÍ¨¹ıÍøÖ·Ö±½ÓÏÂÔØ£¬Ò²¿ÉÒÔÍ¨¹ı°Ù¶ÈËÑË÷ÏÂÔØ£¬ÈçÍ¼
-![jdk_download]({{"/css/pics/myseventhblog/jdk_download.png"}})
+ 1.jdkçš„ä¸‹è½½ï¼š
+  å¯ä»¥é€šè¿‡ç½‘å€ç›´æ¥ä¸‹è½½ï¼Œä¹Ÿå¯ä»¥é€šè¿‡ç™¾åº¦æœç´¢ä¸‹è½½ï¼Œå¦‚å›¾
+  ![jdk_download]({{"/css/pics/myseventhblog/jdk_download.png"}})
 
-2.jdkµÄ°²×°£º
-¸öÈË½¨Òé£º×îºÃÊÂÏÈĞÂ½¨Ò»¸öÎÄ¼ş¼Ğ£¬ÎÄ¼ş¼ĞÏÂÔÚ½¨Á½¸öÎÄ¼ş¼Ğ£¬Ò»¸ö·ÅÖÃjdkÁíÒ»¸ö·ÀÖ¹jre
-½ô½Ó×Å£¬°´ÕÕÈçÍ¼ËùÊ¾²½Öè°²×°¼´¿É
-![jdk_setup1]({{"/css/pics/myseventhblog/jdk_setup1.png"}})
+ 2.jdkçš„å®‰è£…ï¼š
+  ä¸ªäººå»ºè®®ï¼šæœ€å¥½äº‹å…ˆæ–°å»ºä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œæ–‡ä»¶å¤¹ä¸‹åœ¨å»ºä¸¤ä¸ªæ–‡ä»¶å¤¹ï¼Œä¸€ä¸ªæ”¾ç½®jdkå¦ä¸€ä¸ªé˜²æ­¢jre
+  ç´§æ¥ç€ï¼ŒæŒ‰ç…§å¦‚å›¾æ‰€ç¤ºæ­¥éª¤å®‰è£…å³å¯
+  ![jdk_setup1]({{"/css/pics/myseventhblog/jdk_setup1.PNG"}})
+  
+  ![jdk_setup2]({{"/css/pics/myseventhblog/jdk_setup2.PNG"}})
+  
+  ![jdk_setup3]({{"/css/pics/myseventhblog/jdk_setup3.PNG"}})
+  
+  ![jdk_setup4]({{"/css/pics/myseventhblog/jdk_setup4.PNG"}})
+  
+ 3.å®‰è£…å®Œjdkåé…ç½®ç¯å¢ƒå˜é‡ï¼š
+  è®¡ç®—æœº->å±æ€§->é«˜çº§ç³»ç»Ÿè®¾ç½®->ç¯å¢ƒå˜é‡
+  ![path1]({{"/css/pics/myseventhblog/path1.PNG"}})
+  
+  ![path2]({{"/css/pics/myseventhblog/path2.PNG"}})
+  
+  ![path3]({{"/css/pics/myseventhblog/path3.PNG"}})
 
-![jdk_setup2]({{"/css/pics/myseventhblog/jdk_setup2.png"}})
-
-![jdk_setup3]({{"/css/pics/myseventhblog/jdk_setup3.png"}})
-
-![jdk_setup4]({{"/css/pics/myseventhblog/jdk_setup4.png"}})
-
-3.°²×°ÍêjdkºóÅäÖÃ»·¾³±äÁ¿£º
-¼ÆËã»ú->ÊôĞÔ->¸ß¼¶ÏµÍ³ÉèÖÃ->»·¾³±äÁ¿
-![path1]({{"/css/pics/myseventhblog/path1.png"}})
-
-![path2]({{"/css/pics/myseventhblog/path2.png"}})
-
-![path3]({{"/css/pics/myseventhblog/path3.png"}})
-
-4.ÔËĞĞcmd£¬²âÊÔÊÇ·ñÅäÖÃ³É¹¦£¬ÈçÍ¼£º
-![test1]({{"/css/pics/myseventhblog/test1.png"}})
-
-![test2]({{"/css/pics/myseventhblog/test2.png"}})
-
-5.Èç´Ë£¬jdkµÄÅäÖÃ¾ÍÒÑ¾­Íê³ÉÀ²£¡
+4.è¿è¡Œcmdï¼Œæµ‹è¯•æ˜¯å¦é…ç½®æˆåŠŸï¼Œå¦‚å›¾ï¼š
+ ![test1]({{"/css/pics/myseventhblog/test1.PNG"}})
+ 
+ ![test2]({{"/css/pics/myseventhblog/test2.PNG"}})
+ 
+5.å¦‚æ­¤ï¼Œjdkçš„é…ç½®å°±å·²ç»å®Œæˆå•¦ï¼
