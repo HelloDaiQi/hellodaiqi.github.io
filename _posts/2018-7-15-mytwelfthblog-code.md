@@ -35,7 +35,7 @@ excerpt: 我的第一个Kotlin程序
  使用kotlinc命令编译kt文件(编译完毕后在与kt文件同一目录下会出下一个同名的jar文件),紧接着使用java运行
  jar文件，如图：<br/>
  ![kotlincode6]({{"/css/pics/mytwelfthblog/kotlincode6.png"}})
- ![kotlincode7]({{"/css/pics/mytwelfthblog/kotlincode7.png"}})
+ ![kotlincode7]({{"/css/pics/mytwelfthblog/kotlincode7.png"}})<br/>
  (Tip:-d:用来设置编译输出的名称,可以是class或jar文件,也可以是目录。-include-runtime:让jar文件包含Kotlin运行库，从而可以直接运行。)
 
  <br/>
