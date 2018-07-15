@@ -15,9 +15,9 @@ excerpt: 我的第一个Java程序
  ![javacode1]({{"/css/pics/myeleventhblog/javacode1.png"}})<br/>
  运行cmd，输入java -version，出现上图提示，表示jdk环境变量配置正确。
 
-2.运行java文件的两个命令：
+2.运行java文件的两个命令：<br/>
  (1)javac:编译java文件，使用方法：javac HelloWorld.java，如果不出错，在于HelloWorld.java同一目录下会生成
-    一个HelloWorld.class文件，这个class文件是操作系统能够使用和运行的文件。
+    一个HelloWorld.class文件，这个class文件是操作系统能够使用和运行的文件。<br/>
  (2)java:运行class文件，使用方法：java HelloWorld，如果不出错的话，会执行HelloWorld.class文件，注意：这里
     的HelloWorld后面不需要扩展名。
  (Tip:这里的HelloWorld是文件名，可以根据需要自己定义。)
@@ -29,7 +29,7 @@ excerpt: 我的第一个Java程序
  ![javacode3]({{"/css/pics/myeleventhblog/javacode3.png"}})<br/>
  编写完毕后保存，将文件后缀修改为java后缀<br/>
  ![javacode4]({{"/css/pics/myeleventhblog/javacode4.png"}})
-
+ <br/>
 4.运行cmd，使用cd命令进入该文件所在文件夹下，如图：<br/>
  ![javacode5]({{"/css/pics/myeleventhblog/javacode5.png"}})<br/>
  使用javac命令编译java文件(编译完毕后在于java文件同一目录下会出下一个同名的class文件),紧接着使用java运行
@@ -37,5 +37,5 @@ excerpt: 我的第一个Java程序
  ![javacode6]({{"/css/pics/myeleventhblog/javacode6.png"}})
 
  ![javacode7]({{"/css/pics/myeleventhblog/javacode7.png"}})
-
+ <br/>
 5.如此,第一个Java程序就完成啦！
