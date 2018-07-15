@@ -12,7 +12,7 @@ excerpt: 我的第一个Java程序
 ## 《我的第一个Java程序》
 1.Java环境：
  在写第一个Java程序之前，要确保计算机中安装了jdk:<br/>
- ![javacode1]({{"/css/pics/myeleventhblog/javacode1.png"}})
+ ![javacode1]({{"/css/pics/myeleventhblog/javacode1.png"}})<br/>
  运行cmd，输入java -version，出现上图提示，表示jdk环境变量配置正确。
 
 2.运行java文件的两个命令：
@@ -24,14 +24,14 @@ excerpt: 我的第一个Java程序
 
 3.编写第一个Java程序：
  在F盘下新建一个文件夹java，在此文件夹下新建一个文本文档，命名为HelloWorld，如图：<br/>
- ![javacode2]({{"/css/pics/myeleventhblog/javacode2.png"}})
+ ![javacode2]({{"/css/pics/myeleventhblog/javacode2.png"}})<br/>
  打开该文件，写入如下代码：<br/>
- ![javacode3]({{"/css/pics/myeleventhblog/javacode3.png"}})
+ ![javacode3]({{"/css/pics/myeleventhblog/javacode3.png"}})<br/>
  编写完毕后保存，将文件后缀修改为java后缀<br/>
  ![javacode4]({{"/css/pics/myeleventhblog/javacode4.png"}})
 
 4.运行cmd，使用cd命令进入该文件所在文件夹下，如图：<br/>
- ![javacode5]({{"/css/pics/myeleventhblog/javacode5.png"}})
+ ![javacode5]({{"/css/pics/myeleventhblog/javacode5.png"}})<br/>
  使用javac命令编译java文件(编译完毕后在于java文件同一目录下会出下一个同名的class文件),紧接着使用java运行
  class文件，如图：<br/>
  ![javacode6]({{"/css/pics/myeleventhblog/javacode6.png"}})
